@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name DTLib)(type Legacy)(uri D:/Projects/trunk/KiCad/lib/DTLib.lib)(options "")(descr ""))
+  (lib (name MerlinGame-rescue)(type Legacy)(uri ${KIPRJMOD}/MerlinGame-rescue.lib)(options "")(descr ""))
+)
