@@ -776,99 +776,70 @@ F 3 "" H 2250 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad MH6
-U 1 1 5DA4CD65
-P 5700 7600
-F 0 "MH6" H 5800 7651 50  0000 L CNN
-F 1 "BATTERY2" H 5800 7560 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 5700 7600 50  0001 C CNN
-F 3 "~" H 5700 7600 50  0001 C CNN
-	1    5700 7600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad MH5
-U 1 1 5DA4CDC1
-P 5200 7600
-F 0 "MH5" H 5300 7651 50  0000 L CNN
-F 1 "BATTERY1" H 5300 7560 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 5200 7600 50  0001 C CNN
-F 3 "~" H 5200 7600 50  0001 C CNN
-	1    5200 7600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Mechanical:MountingHole_Pad MH2
 U 1 1 5DA4CF95
-P 4000 7600
-F 0 "MH2" H 4100 7651 50  0000 L CNN
-F 1 "CASE" H 4100 7560 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 4000 7600 50  0001 C CNN
-F 3 "~" H 4000 7600 50  0001 C CNN
-	1    4000 7600
+P 4100 6850
+F 0 "MH2" H 4200 6901 50  0000 L CNN
+F 1 "CASE" H 4200 6810 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_Pad" H 4100 6850 50  0001 C CNN
+F 3 "~" H 4100 6850 50  0001 C CNN
+	1    4100 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad MH1
 U 1 1 5DA4CF9B
-P 3600 7600
-F 0 "MH1" H 3700 7651 50  0000 L CNN
-F 1 "CASE" H 3700 7560 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 3600 7600 50  0001 C CNN
-F 3 "~" H 3600 7600 50  0001 C CNN
-	1    3600 7600
+P 3700 6850
+F 0 "MH1" H 3800 6901 50  0000 L CNN
+F 1 "CASE" H 3800 6810 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_Pad" H 3700 6850 50  0001 C CNN
+F 3 "~" H 3700 6850 50  0001 C CNN
+	1    3700 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad MH4
 U 1 1 5DA50A12
-P 4800 7600
-F 0 "MH4" H 4900 7646 50  0000 L CNN
-F 1 "CASE" H 4900 7555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 4800 7600 50  0001 C CNN
-F 3 "~" H 4800 7600 50  0001 C CNN
-	1    4800 7600
+P 4900 6850
+F 0 "MH4" H 5000 6896 50  0000 L CNN
+F 1 "CASE" H 5000 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_Pad" H 4900 6850 50  0001 C CNN
+F 3 "~" H 4900 6850 50  0001 C CNN
+	1    4900 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad MH3
 U 1 1 5DA50A18
-P 4400 7600
-F 0 "MH3" H 4500 7646 50  0000 L CNN
-F 1 "CASE" H 4500 7555 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm_Pad" H 4400 7600 50  0001 C CNN
-F 3 "~" H 4400 7600 50  0001 C CNN
-	1    4400 7600
+P 4500 6850
+F 0 "MH3" H 4600 6896 50  0000 L CNN
+F 1 "CASE" H 4600 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_Pad" H 4500 6850 50  0001 C CNN
+F 3 "~" H 4500 6850 50  0001 C CNN
+	1    4500 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 5DA5C72D
-P 5700 7800
-F 0 "#PWR0108" H 5700 7550 50  0001 C CNN
-F 1 "GND" H 5705 7627 50  0000 C CNN
-F 2 "" H 5700 7800 50  0001 C CNN
-F 3 "" H 5700 7800 50  0001 C CNN
-	1    5700 7800
+P 4350 7050
+F 0 "#PWR0108" H 4350 6800 50  0001 C CNN
+F 1 "GND" H 4355 6877 50  0000 C CNN
+F 2 "" H 4350 7050 50  0001 C CNN
+F 3 "" H 4350 7050 50  0001 C CNN
+	1    4350 7050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 7700 4000 7700
+	3700 6950 4100 6950
 Wire Wire Line
-	5700 7700 5700 7800
-Connection ~ 5700 7700
-Connection ~ 4000 7700
+	4350 6950 4350 7050
+Connection ~ 4100 6950
 Wire Wire Line
-	4000 7700 4400 7700
-Connection ~ 4400 7700
+	4100 6950 4350 6950
+Connection ~ 4500 6950
 Wire Wire Line
-	4400 7700 4800 7700
-Connection ~ 4800 7700
-Wire Wire Line
-	4800 7700 5200 7700
-Connection ~ 5200 7700
-Wire Wire Line
-	5200 7700 5700 7700
+	4500 6950 4900 6950
 Entry Wire Line
 	6150 5200 6250 5100
 Entry Wire Line
@@ -1462,6 +1433,9 @@ F 3 " ~" H 175 6250 50  0001 C CNN
 	1    1450 6800
 	1    0    0    -1  
 $EndComp
+Connection ~ 4350 6950
+Wire Wire Line
+	4350 6950 4500 6950
 Wire Bus Line
 	5200 5300 5200 6000
 Wire Bus Line
