@@ -60,12 +60,19 @@ void outputOCallback(TMS1000::BYTE val) {
   PORTD = newVal;    
 }
 
-bool checkButtonNewGame() {
-  PORTD = 0b01111111;
-  delay(10);
-  bool button =  !(PIND & 8);
+bool checkAnyButton() {
+  PORTD = 0b00001111; 
+  bool button =  ((PIND & 15) != 15);
   PORTD = 0b11111111;
   return button;  
+}
+
+bool checkNoButton() {
+  PORTD = 0b00001111;
+  delay(10);
+  bool button =  ((PIND & 15) == 15);
+  PORTD = 0b11111111;
+  return button;    
 }
 
 void setup() {
@@ -97,8 +104,22 @@ void setup() {
   TMS1000::SetOutputOCallback(outputOCallback);
   TMS1000::SetOutputRCallback(outputRCallback);
 
-  // By default we load Merlin, if newGame is pressed at power up, load Master Merlin  
-  masterMerlin = checkButtonNewGame();
+  // By default we load Merlin, if any pey is pressed at power up, load Master Merlin  
+  if (checkAnyButton()) {
+    do {
+      outputRCallback(0, true);
+      outputRCallback(10, true);
+      delay(200);
+      outputRCallback(0, false);
+      outputRCallback(10, false);
+      delay(200);
+    }
+    while (!checkNoButton());
+
+    outputRCallback(0, false);
+    outputRCallback(10, false);
+    masterMerlin = true;
+  }  
   
   if (!masterMerlin) {
     // Merlin Game    
