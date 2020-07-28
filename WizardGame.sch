@@ -1,11 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:MerlinGame-cache
 EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
-Title "Merlin"
+Title "Wizard Electronic Game"
 Date "2019-10-10"
 Rev "A"
 Comp ""
@@ -59,7 +58,7 @@ F 3 "" H 5400 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MerlinGame-rescue:ATmega328P-AU-MCU_Microchip_ATmega U1
+L MCU_Microchip_ATmega:ATmega328P-AU U1
 U 1 1 5D8A88CB
 P 7700 4500
 F 0 "U1" H 7300 6000 50  0000 C CNN
