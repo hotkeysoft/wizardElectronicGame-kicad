@@ -205,7 +205,7 @@
     (add_net +BATT)
   )
 
-  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F204FDC) (tstamp 5D8B713D)
+  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F206CBD) (tstamp 5D8B713D)
     (at 80 130)
     (descr "SW PUSH 12mm with LED")
     (tags "tact sw push 12mm led")
@@ -260,14 +260,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model P:/Projects/trunk/KiCad/lib/DTLib.pretty/SW_PUSH-12mm_LED.stp
+    (model ${KIPRJMOD}/commonlib/DTLib.pretty/SW_PUSH-12mm_LED.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F204FDC) (tstamp 5D8B711E)
+  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F206CBD) (tstamp 5D8B711E)
     (at 100 110)
     (descr "SW PUSH 12mm with LED")
     (tags "tact sw push 12mm led")
@@ -322,14 +322,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model P:/Projects/trunk/KiCad/lib/DTLib.pretty/SW_PUSH-12mm_LED.stp
+    (model ${KIPRJMOD}/commonlib/DTLib.pretty/SW_PUSH-12mm_LED.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F204FDC) (tstamp 5D8B70E2)
+  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F206CBD) (tstamp 5D8B70E2)
     (at 80 110)
     (descr "SW PUSH 12mm with LED")
     (tags "tact sw push 12mm led")
@@ -384,14 +384,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model P:/Projects/trunk/KiCad/lib/DTLib.pretty/SW_PUSH-12mm_LED.stp
+    (model ${KIPRJMOD}/commonlib/DTLib.pretty/SW_PUSH-12mm_LED.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F204FDC) (tstamp 5D8B70C4)
+  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F206CBD) (tstamp 5D8B70C4)
     (at 60 110)
     (descr "SW PUSH 12mm with LED")
     (tags "tact sw push 12mm led")
@@ -446,14 +446,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model P:/Projects/trunk/KiCad/lib/DTLib.pretty/SW_PUSH-12mm_LED.stp
+    (model ${KIPRJMOD}/commonlib/DTLib.pretty/SW_PUSH-12mm_LED.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F204FDC) (tstamp 5D8B70A6)
+  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F206CBD) (tstamp 5D8B70A6)
     (at 100 90)
     (descr "SW PUSH 12mm with LED")
     (tags "tact sw push 12mm led")
@@ -508,14 +508,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model P:/Projects/trunk/KiCad/lib/DTLib.pretty/SW_PUSH-12mm_LED.stp
+    (model ${KIPRJMOD}/commonlib/DTLib.pretty/SW_PUSH-12mm_LED.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F204FDC) (tstamp 5D8B7088)
+  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F206CBD) (tstamp 5D8B7088)
     (at 80 90)
     (descr "SW PUSH 12mm with LED")
     (tags "tact sw push 12mm led")
@@ -570,14 +570,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model P:/Projects/trunk/KiCad/lib/DTLib.pretty/SW_PUSH-12mm_LED.stp
+    (model ${KIPRJMOD}/commonlib/DTLib.pretty/SW_PUSH-12mm_LED.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F204FDC) (tstamp 5D8B706A)
+  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F206CBD) (tstamp 5D8B706A)
     (at 60 90)
     (descr "SW PUSH 12mm with LED")
     (tags "tact sw push 12mm led")
@@ -632,14 +632,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model P:/Projects/trunk/KiCad/lib/DTLib.pretty/SW_PUSH-12mm_LED.stp
+    (model ${KIPRJMOD}/commonlib/DTLib.pretty/SW_PUSH-12mm_LED.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F204FDC) (tstamp 5D8B4774)
+  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F206CBD) (tstamp 5D8B4774)
     (at 100 70)
     (descr "SW PUSH 12mm with LED")
     (tags "tact sw push 12mm led")
@@ -694,14 +694,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model P:/Projects/trunk/KiCad/lib/DTLib.pretty/SW_PUSH-12mm_LED.stp
+    (model ${KIPRJMOD}/commonlib/DTLib.pretty/SW_PUSH-12mm_LED.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F204FDC) (tstamp 5D8B4755)
+  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F206CBD) (tstamp 5D8B4755)
     (at 80 70)
     (descr "SW PUSH 12mm with LED")
     (tags "tact sw push 12mm led")
@@ -756,14 +756,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model P:/Projects/trunk/KiCad/lib/DTLib.pretty/SW_PUSH-12mm_LED.stp
+    (model ${KIPRJMOD}/commonlib/DTLib.pretty/SW_PUSH-12mm_LED.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F204FDC) (tstamp 5D8B4736)
+  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F206CBD) (tstamp 5D8B4736)
     (at 60 70)
     (descr "SW PUSH 12mm with LED")
     (tags "tact sw push 12mm led")
@@ -818,14 +818,14 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model P:/Projects/trunk/KiCad/lib/DTLib.pretty/SW_PUSH-12mm_LED.stp
+    (model ${KIPRJMOD}/commonlib/DTLib.pretty/SW_PUSH-12mm_LED.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
   )
 
-  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F204FDC) (tstamp 5D8B4717)
+  (module DTLib:SW_PUSH-12mm_LED (layer F.Cu) (tedit 5F206CBD) (tstamp 5D8B4717)
     (at 80 50)
     (descr "SW PUSH 12mm with LED")
     (tags "tact sw push 12mm led")
@@ -880,7 +880,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model P:/Projects/trunk/KiCad/lib/DTLib.pretty/SW_PUSH-12mm_LED.stp
+    (model ${KIPRJMOD}/commonlib/DTLib.pretty/SW_PUSH-12mm_LED.stp
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
@@ -1308,7 +1308,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model P:/Projects/trunk/KiCad/lib/DTLib.pretty/1825232-1.stp
+    (model ${KIPRJMOD}/commonlib/DTLib.pretty/1825232-1.stp
       (offset (xyz 2 -2 2))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))

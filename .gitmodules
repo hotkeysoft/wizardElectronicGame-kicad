@@ -1,0 +1,3 @@
+[submodule "commonlib"]
+	path = commonlib
+	url = https://github.com/hotkeysoft/commonlib-kicad.git

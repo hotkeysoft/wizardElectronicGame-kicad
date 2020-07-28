@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name DTLib)(type Legacy)(uri P:/Projects/trunk/KiCad/lib/DTLib.lib)(options "")(descr ""))
+  (lib (name DTLib)(type Legacy)(uri ${KIPRJMOD}/commonlib/DTLib.lib)(options "")(descr ""))
 )
